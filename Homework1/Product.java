@@ -26,7 +26,6 @@ public class Product {
       this.cost = cost;
   }
 
-  @Override
   public String toString() {
       return String.format("Product{name='%s',cost=%f}", name, cost);
   }

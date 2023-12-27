@@ -10,7 +10,6 @@ public class HotDrinkMachine implements VendingMachine {
       initProducts(products);
   }
 
-  @Override
   public Product getProduct(String name) {
     for (Product product : products) {
       if (product.getName().equalsIgnoreCase(name)) {
@@ -46,7 +45,7 @@ public class HotDrinkMachine implements VendingMachine {
     return null;
   }
 
-  @Override
+  
   public void initProducts(List<Product> products) {
     this.products = products;
   }
