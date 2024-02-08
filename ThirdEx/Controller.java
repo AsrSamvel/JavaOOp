@@ -1,3 +1,5 @@
+package ThirdEx;
+
 public class Controller {
     private StudentGroupService studentGroupService;
     private StreamService streamService;

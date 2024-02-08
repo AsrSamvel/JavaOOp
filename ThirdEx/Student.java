@@ -1,3 +1,5 @@
+package ThirdEx;
+
 public class Student implements Comparable<Student>{
     private Integer studentId;
     private String surname;
