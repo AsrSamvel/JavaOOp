@@ -2,7 +2,7 @@ package FourthEx;
 
 import java.util.List;
 
-public class TeacherService{
+public class TeacherService implements UserService<Teacher>{
 
     private List<Teacher> teacherList;
     private Integer maxTeacherId = 0;

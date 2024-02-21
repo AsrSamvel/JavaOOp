@@ -2,7 +2,7 @@ package FourthEx;
 
 import java.util.List;
 
-public class TeacherController {
+public class TeacherController implements UserController<Teacher>{
   private final TeacherService teacherService = new TeacherService();
     private final TeacherView teacherView = new TeacherView();
     
